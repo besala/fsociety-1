@@ -143,10 +143,10 @@ class fsociety:
     def __init__(self):
         clearScr()
         self.createFolders()
-        print(fsocietylogo) + color.RED + '''
+        print(fsocietylogo + color.RED + '''
        }--------------{+} Coded By Manisso {+}--------------{
        }--------{+}  GitHub.com/Manisso/fsociety {+}--------{
-    ''' + color.END + ('''
+    ''' + color.END + '''
        {1}--Information Gathering
        {2}--Password Attacks
        {3}--Wireless Testing
