@@ -146,7 +146,7 @@ class fsociety:
         print(fsocietylogo) + color.RED + '''
        }--------------{+} Coded By Manisso {+}--------------{
        }--------{+}  GitHub.com/Manisso/fsociety {+}--------{
-    ''' + color.END + '''
+    ''' + color.END + ('''
        {1}--Information Gathering
        {2}--Password Attacks
        {3}--Wireless Testing
@@ -1927,7 +1927,7 @@ def grabsqli(ip):
                 try:
                     response = urllib2.urlopen(i).read()
                     checksqli(i)
-                except urllib2.HTTPError, e:
+                except urllib2.HTTPError as e:
                     str(sites).strip(i)
 
             page = page + 10
